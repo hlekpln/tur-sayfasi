@@ -1,0 +1,410 @@
+#baslik {
+  float: left;
+}
+
+#top {
+  margin-top: 20px;
+}
+#menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#menu li {
+  display: inline;
+  float: left;
+}
+
+#menu li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#menu li a:hover {
+  background-color: lightgrey;
+  color: black;
+}
+
+.clearDiv {
+  clear: both;
+}
+
+/* menu satırı css bitişi */
+
+/* otel tanıtım  css başlangıç */
+#ana-otel {
+  width: 100%;
+  text-align: center;
+  border: 3px solid black;
+  display: block;
+  height: 450px;
+}
+
+.otel {
+  width: 19%;
+  height: 450px;
+  border: 2px solid darkgrey;
+  display: inline-block;
+  margin-left: 3px;
+  margin-right: 3px;
+  float: left;
+  text-align: center;
+}
+
+.otel a {
+  color: black;
+  text-decoration: none;
+}
+
+.otel a:hover {
+  color: coral;
+}
+.otel img {
+  width: 100%;
+  margin: 0;
+}
+.otel table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+/* otel tanıtım  css bitiş */
+
+/* satına alma koşulları başla */
+
+#satis h3 {
+  width: 100%;
+  text-align: center;
+  display: block;
+  font-size: 1.17em;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+}
+
+#satis p {
+  width: 100%;
+  font-size: 14px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 2px 7px 2px 7px;
+}
+/* satın alma koşulları bitiş */
+
+/* hakkımızda başlangıç */
+#about {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.aboutcon {
+  width: 100%;
+  height: 250px;
+  margin: 0;
+  padding: 0;
+  border: 4px solid darkgrey;
+}
+
+.aboutimg {
+  width: 49%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 12px;
+  text-align: center;
+  float: left;
+}
+.abouttext {
+  width: 49%;
+  height: 225px;
+  margin: 0;
+  padding: 0;
+  display: block;
+  text-align: left;
+  float: left;
+}
+
+#firmaoz {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: 1px solid black;
+  display: block;
+  border: 4px solid darkgrey;
+}
+
+#firmaoz h2 {
+  text-align: center;
+}
+/* hakkımızda bitiş */
+
+/* footer başlangıç */
+
+#footer {
+  width: 100%;
+
+  float: left;
+  background-color: darkgrey;
+  color: white;
+  text-decoration: none;
+}
+.fbolme {
+  width: 32%;
+  margin: 2px;
+  padding: 5px;
+  float: left;
+  text-align: left;
+  text-decoration: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.fbolme ul {
+  list-style-type: none;
+}
+.fbolme ul li a {
+  color: white;
+  width: 33%;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+/* footer bitiş */
+
+/** form css*/
+
+.form-style {
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  background-color: grey;
+  color: beige;
+  padding: 10px;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  border-radius: 15px;
+  float: left;
+}
+.form-style h1 {
+  padding: 1px;
+  border-bottom: 1px solid lightslategrey;
+  text-align: center;
+}
+
+.form-style label {
+  display: block;
+  margin: 0px 0px 5px;
+}
+
+.form-style input[type="text"],
+.form-style input[type="email"],
+.form-style input[type="password"] {
+  color: lightslategray;
+  height: 25px;
+
+  padding: 5px;
+  width: 90%;
+  background-color: lavender;
+}
+
+.radio-ke {
+  width: 50%;
+}
+.form-style input[type="radio"] {
+  width: 50%;
+  height: 15px;
+
+  padding: 5px 0px 5px 5px;
+
+  background-color: lavender;
+}
+/* FORM BİTİŞ */
+
+#mainDiv {
+  width: 90%;
+  margin: 0 auto;
+  background-color: aquamarine;
+  position: relative;
+}
+
+#middleDiv {
+  width: 90%;
+  margin: 0 auto;
+  background-color: blueviolet;
+}
+#index-alt {
+  margin-top: 10%;
+  margin-left: 3%;
+  display: inline-block;
+}
+
+.index-altparca {
+  width: 20%;
+  float: left;
+  border: 1px solid black;
+  margin-top: 5%;
+  margin-left: 3%;
+  display: inline-block;
+}
+.altparca {
+  margin: 3%;
+  max-width: 40%;
+  float: left;
+  display: inline-block;
+}
+#index-alt h3 {
+  max-width: 30%;
+  float: left;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+#index-alt p {
+  max-width: 30%;
+  max-height: 200px;
+  padding: 0;
+  margin: 0;
+  float: left;
+}
+
+.innerDivs {
+  width: 100%;
+  float: left;
+  border: 1px solid rebeccapurple;
+  height: 400px;
+  background-color: palevioletred;
+  position: relative;
+}
+.resim-buton {
+  background-color: darkblue;
+
+  border-radius: 10px;
+  color: white;
+  padding: 10px 18px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1em;
+  display: inline-block;
+}
+#resimbut:hover {
+  background-color: cadetblue;
+  font-weight: bolder;
+}
+
+#resimHeader {
+  color: white;
+  font-size: 5em;
+}
+#firsatlar {
+  font-size: 2em;
+  color: white;
+  margin-top: 5%;
+}
+#gezici-div {
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  color: white;
+}
+#resimHeader-res {
+  display: none;
+}
+.innerDivs img {
+  width: 100%;
+  height: 500px;
+}
+
+/* RESPONSIVE KISIM */
+
+@media only screen and (max-width: 1000px) {
+  .innerDivs {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .innerDivs {
+    margin: 1px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .innerDivs {
+    margin: 5px;
+  }
+
+  #index-alt h3 {
+    float: left;
+    font-size: 0.8em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .innerDivs {
+    margin: 10px;
+  }
+  #resimHeader {
+    font-size: 2em;
+  }
+
+  .innerDivs img {
+    width: 100%;
+    object-fit: none;
+    height: 100%;
+  }
+  /*#resimHeader{
+  display: none;
+}*/
+  #resimHeader-res {
+    font-size: 2em;
+    display: block;
+  }
+
+  .index-altparca {
+    width: 90%;
+    height: 90%;
+    float: left;
+    border: 1px solid black;
+    margin-top: 5%;
+    margin-left: 3%;
+    display: inline-block;
+  }
+
+  .altparca {
+    margin-top: 1%;
+    max-width: 40%;
+    float: left;
+    display: inline-block;
+  }
+
+  #index-alt h3 {
+    float: left;
+    font-size: 1em;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  #index-alt p {
+    font-size: 0.8em;
+  }
+}
+
+#indextable tr {
+  border: 1px;
+  text-align: center;
+}
